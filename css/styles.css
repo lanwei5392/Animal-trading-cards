@@ -1,0 +1,35 @@
+/* 添加 CSS */
+body {
+	font-family: "Lucida Sans";
+	background-color: white;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	border: 3px;
+	border-style: ridge;
+	padding: 1em;
+	margin-left: 300px;
+	width: 400px;
+	background-color: #c0c0c0;
+}
+
+.image {
+	text-align: left;
+	margin-bottom: 10px;
+}
+.image img {
+	width: 400px;
+	height: 450px;
+}
+.content {
+	width: 550px;
+	border-style: ridge;
+}
+
+.content span {
+	font-weight: bold;
+}
+.table {
+	margin-left: 1px;
+}
